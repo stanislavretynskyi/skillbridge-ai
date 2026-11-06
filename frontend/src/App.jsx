@@ -4,7 +4,7 @@ import { useRef, useState } from 'react'
 
 import './App.css'
 
-
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8001'
 
 const translations = {
 
@@ -363,7 +363,7 @@ function App() {
 
         response = await fetch(
 
-          'http://127.0.0.1:8001/api/analyze-cv',
+          '${API_BASE_URL}/api/analyze-cv',
 
           {
 
@@ -379,7 +379,7 @@ function App() {
 
         response = await fetch(
 
-          'http://127.0.0.1:8001/api/analyze-profile',
+          '${API_BASE_URL}/api/analyze-profile',
 
           {
 
