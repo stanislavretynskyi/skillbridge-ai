@@ -37,19 +37,22 @@ button, input, textarea, select { font: inherit; }
 }
 
 .brand-mark {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 56px;
-  height: 56px;
-  margin: 0 auto 14px;
-  border-radius: 17px;
-  color: white;
-  background: linear-gradient(135deg, #3157d5, #6687f4 65%, #7b9cff);
-  font-size: 19px;
-  font-weight: 800;
-  box-shadow: 0 10px 28px rgba(49, 87, 213, .25);
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 18px;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  background: transparent;
+  box-shadow: 0 8px 24px rgba(49, 87, 213, 0.2);
   animation: logo-float 4s ease-in-out infinite;
+}
+
+.brand-mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .hero-header h1 {

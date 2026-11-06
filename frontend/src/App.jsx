@@ -514,7 +514,9 @@ function App() {
 
       <header className="hero-header">
 
-        <div className="brand-mark">SB</div>
+      <div className="brand-mark">
+        <img src="/skillbridge-logo.png" alt="SkillBridge AI logo" />
+      </div>
 
         <h1>SkillBridge AI</h1>
 
