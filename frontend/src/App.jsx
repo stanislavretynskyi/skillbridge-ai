@@ -363,7 +363,7 @@ function App() {
 
         response = await fetch(
 
-          '${API_BASE_URL}/api/analyze-cv',
+          `${API_BASE_URL}/api/analyze-cv`,
 
           {
 
@@ -379,7 +379,7 @@ function App() {
 
         response = await fetch(
 
-          '${API_BASE_URL}/api/analyze-profile',
+          `${API_BASE_URL}/api/analyze-profile`,
 
           {
 
