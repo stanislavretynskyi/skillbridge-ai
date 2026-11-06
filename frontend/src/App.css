@@ -43,7 +43,6 @@ button, input, textarea, select { font: inherit; }
   border-radius: 22px;
   overflow: hidden;
   background: transparent;
-  box-shadow: 0 8px 24px rgba(49, 87, 213, 0.18);
   animation: logo-float 4s ease-in-out infinite;
 }
 
